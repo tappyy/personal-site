@@ -9,6 +9,7 @@
       <div class="type-container">
         <p class="greeting">{{greeting}} Internet friend,</p>
         <h1>I'm Andy</h1>
+        <p class="greeting sub">Your friendly neighbourhood</p>
         <h2>Software Developer</h2>
         <h3>
           Thinking about
@@ -89,8 +90,9 @@ export default {
 <style lang="scss">
 .grid {
   display: grid;
-  grid-template-rows: 100%;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  //grid-template-rows: 100%;
+  //grid-template-columns: 1fr 1fr;
   padding: 36px;
   box-sizing: border-box;
   max-width: 1200px;
@@ -104,8 +106,8 @@ export default {
     flex-direction: column;
     justify-content: center;
     flex-basis: 50%;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    /* grid-row-start: 1;
+    grid-row-end: 2; */
     h1,
     h2,
     h3 {
@@ -120,25 +122,32 @@ export default {
     }
     h2 {
       font-size: 2.9rem;
-      margin-top: 36px;
+      margin-top: 0;
     }
     .greeting {
       font-weight: 300;
       font-size: 1.6rem;
       margin: 0;
     }
+    .sub {
+      margin-top: 36px;
+    }
   }
   .logo-container {
     align-items: center;
-    grid-column-start: 2;
-    grid-column-end: 3;
+    /* grid-column-start: 2;
+    grid-column-end: 3; */
   }
   .type-container {
-    grid-column-start: 1;
-    grid-column-end: 2;
+    /* grid-column-start: 1;
+    grid-column-end: 2; */
   }
   .self-logo {
     width: 250px;
+    @media (max-width: 767px) {
+      width: 125px;
+      margin-bottom: 36px;
+    }
   }
 }
 .socials {
