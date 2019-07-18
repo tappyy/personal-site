@@ -90,7 +90,7 @@ export default {
 <style lang="scss">
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   //grid-template-rows: 100%;
   //grid-template-columns: 1fr 1fr;
   padding: 36px;
