@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <p>✌️</p>
+    <small>✌️ Hand-crafted with hands and crafts</small>
   </footer>
 </template>
 
@@ -18,11 +18,14 @@ export default {
 
 <style scoped lang="scss">
 .footer {
-  /* display: flex; */
-  //justify-content: space-between;
-  /* align-items: center; */
+  display: flex;
+  /* justify-content: space-between;
+  align-items: center; */
   font-size: 1rem;
-  p {
+  margin-top: 48px;
+  height: 48px;
+  small {
+    width: 100%;
     text-align: center;
     color: #c1c1c1;
   }

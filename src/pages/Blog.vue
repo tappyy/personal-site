@@ -42,6 +42,9 @@ import BlogCard from "../components/BlogCard";
 export default {
   components: {
     BlogCard
+  },
+  metaInfo: {
+    title: "Blog"
   }
 };
 </script>

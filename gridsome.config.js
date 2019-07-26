@@ -6,7 +6,7 @@ module.exports = {
       .use('vue-svg-loader')
       .loader('vue-svg-loader')
   },
-  siteName: 'andy.',
+  siteName: 'Andy Pottage',
   plugins: [
     {
       // add blog posts collection
