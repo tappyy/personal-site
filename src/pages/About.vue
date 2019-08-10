@@ -3,24 +3,27 @@
     <!-- <h1>About Me</h1> -->
     <div class="grid">
       <div class="circular">
-        <img src="../../static/me.jpg">
+        <g-image src="../../static/me.jpg"></g-image>
       </div>
       <ul class="quick-info">
         <li>
           <div class="icon-container">
-            <Terminal/>
+            <Terminal />
           </div>
           <div class="about-info">
             <p class="about-title">Software Developer</p>
             <p class="about-description">
               Working with a great team at
-              <a href="https://adviserplus.com/" target="blank">AdviserPlus</a> developing business software solutions.
+              <a
+                href="https://adviserplus.com/"
+                target="blank"
+              >AdviserPlus</a> developing business software solutions.
             </p>
           </div>
         </li>
         <li>
           <div class="icon-container">
-            <Award/>
+            <Award />
           </div>
           <div class="about-info">
             <p class="about-title">BSc Cyber Security</p>
@@ -31,7 +34,7 @@
         </li>
         <li>
           <div class="icon-container">
-            <MapPin/>
+            <MapPin />
           </div>
           <div class="about-info">
             <p class="about-title">Based in the UK</p>
