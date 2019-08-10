@@ -7,7 +7,7 @@
         <p class="date">{{$page.post.date}}</p>
         <h2 class="excerpt">{{$page.post.description}}</h2>
       </div>
-      <div id="post-content" v-html="$page.post.content"/>
+      <div id="post-content" v-html="$page.post.content" />
     </article>
   </Layout>
 </template>
@@ -37,6 +37,9 @@ export default {
 </script>
 
 <style lang="scss">
+article {
+  margin-top: 64px;
+}
 .header-wrapper {
   text-align: center;
   .category {
@@ -65,6 +68,13 @@ export default {
   margin: 40px 0;
 }
 #post-content {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    margin-top: 32px;
+  }
   a {
     color: #ff2c96;
     text-decoration: none;

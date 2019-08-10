@@ -2,7 +2,7 @@
   <article class="blog-card">
     <p class="blog-card__category">{{category}}</p>
     <div class="blog-card__meta">
-      <h4 class="blog-card__title">{{title}}</h4>
+      <g-link :to="`post/${slug}`" class="blog-card__title">{{title}}</g-link>
       <p v-if="date" class="blog-card__date">{{date}}</p>
     </div>
     <p class="blog-card__excerpt">{{excerpt}}</p>
@@ -25,6 +25,8 @@
     font-weight: 500;
     margin-bottom: 0;
     font-family: "Roboto Slab", serif;
+    text-decoration: none;
+    color: #222d50;
   }
   .blog-card__date {
     font-size: 0.75rem;

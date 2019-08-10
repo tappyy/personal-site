@@ -15,7 +15,7 @@
 
 <page-query>
 query AllPosts {
-  posts: allPost {
+  posts: allPost(filter: { published: { eq: true }}) {
     pageInfo {
       totalPages
       currentPage
@@ -23,6 +23,7 @@ query AllPosts {
     edges {
        node {
         id
+        published
         title
         excerpt
         slug

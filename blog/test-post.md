@@ -1,5 +1,6 @@
 ---
 title: Styling Post
+published: false
 description: A test markdown page to format all markdown elements that could be contained in a blog post.
 date: 2019-06-15
 category: Workflow

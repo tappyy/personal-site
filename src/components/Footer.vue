@@ -5,14 +5,7 @@
 </template>
 
 <script>
-export default {
-  props: {
-    isHome: {
-      type: Boolean,
-      required: true
-    }
-  }
-};
+export default {};
 </script>
 
 

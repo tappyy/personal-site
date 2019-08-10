@@ -1,10 +1,10 @@
 <template>
   <div class="layout">
-    <Navigation/>
+    <Navigation :isHome='false'/>
     <main class="content">
-      <slot/>
+      <slot />
     </main>
-    <Footer/>
+    <Footer />
   </div>
 </template>
 
