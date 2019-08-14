@@ -29,7 +29,7 @@ Gridsome is a static site generator that holds hands with VueJS, and together th
 
 I'm generating posts by creating Markdown files in my project. A plus here is that I can use VS Code and all my usual hotkeys to write posts - *#efficient* 
 
-Using the Markdown content, a GraphQL data layer is created and this sits just behind the Vue SPA. This is then queried from within Vue components, much like any other API, and the data can be consumed as normal. Effectively, a mini-database is being created from the local markdown files which be queried via GraphQL.
+Using the Markdown content, a GraphQL data layer is created and this sits just behind the Vue SPA. This is then queried from within Vue components, much like any other API, and the data can be consumed as normal. Effectively, a mini-database is being created from the local markdown files that can be queried via GraphQL.
 
 # GraphQL, you say? 🧐
 The GraphQL layer created by Gridsome allows you to query your data and specify only the fields you're interested in for the given view etc. Again, their [documentation](https://graphql.org/learn/) is really good for learning the basics and seeing what it can offer.
