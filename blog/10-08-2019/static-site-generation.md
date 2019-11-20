@@ -108,7 +108,7 @@ I have plans for my site to also become a portfolio to showcase projects and suc
 And that's that! I'm happy with where the site is at launch and I'll continue to develop it and push new posts as interesting topics pop up, but until then feel free to have a gander at the [Github repo](https://github.com/tappyy/personal-site) to see the source code.
 
 ### Further Reading 📖
-Just some useful links that are related to this post 😃
+Some useful links that are related to this post 😃
 
 - [Gridsome](https://gridsome.org/)
 - [GraphQL](https://graphql.org/)
