@@ -2,7 +2,7 @@
 title: From AAA Game Dev to ABC of Software Dev
 published: true
 description: 5 skills or habits that have been directly transferrable from game development to software development
-date: 2020-07-16
+date: 2020-07-19
 category: Career development
 slug: games-to-software
 excerpt: After a few years doing this and with no prior knowledge of programming, I decided to pursue a career in software development and learn programming. At first, it felt like I'd be starting from scratch but I soon realised that many of the skills and habits that were built over my gamedev career were directly transferrable into building a career in software development.
