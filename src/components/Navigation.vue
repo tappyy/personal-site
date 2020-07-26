@@ -4,7 +4,6 @@
       <SelfLogo/>
     </g-link>
     <nav class="nav">
-      <g-link active-class="link-active" class="nav__link" to="/blog">blog</g-link>
       <g-link active-class="link-active" class="nav__link" to="/about">about</g-link>
     </nav>
   </header>

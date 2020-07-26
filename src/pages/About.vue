@@ -1,6 +1,5 @@
 <template>
   <Layout>
-    <!-- <h1>About Me</h1> -->
     <div class="grid">
       <div class="circular">
         <g-image src="../../static/me.jpg"></g-image>
@@ -29,7 +28,7 @@
             <p class="about-title">BSc Cyber Security</p>
             <p
               class="about-description"
-            >Graduated in 2019 with First Class Honours Cyber Security Degree.</p>
+            >First Class Honours Cyber Security Degree.</p>
           </div>
         </li>
         <li>
@@ -44,10 +43,6 @@
       </ul>
     </div>
     <div class="about-copy">
-      <h2>Why the blog?</h2>
-      <p>I wanted to have somewhere to document my journey as I build my skillset and knowledge around software development and architecture.</p>
-      <p>I enjoy the process of sharing knowledge so I figured I'd build my own little corner of the Internet to keep my ramblings together as I explore various technologies and architectures etc.</p>
-
       <h2>Get in touch</h2>
       <p>
         If you'd like to, you can dispatch an electronic-mailogram in my direction:
