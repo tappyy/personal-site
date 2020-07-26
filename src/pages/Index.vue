@@ -38,12 +38,8 @@
             </a>
           </li>
           <li>
-            <a
-              href="https://www.instagram.com/andywritescode/"
-              target="_blank"
-              data-tip="Pics of my dog"
-            >
-              <Instagram/>
+            <a href="https://dev.to/tappyy" target="_blank" data-tip="Dev blog">
+              <Dev/>
             </a>
           </li>
         </ul>
@@ -57,16 +53,16 @@ import HomeLayout from "../layouts/HomeLayout";
 import SelfLogo from "../../static/self_icon.svg";
 import Github from "../../static/github.svg";
 import LinkedIn from "../../static/linkedin.svg";
-import Instagram from "../../static/instagram.svg";
 import Twitter from "../../static/twitter.svg";
+import Dev from '../../static/dev-badge.svg';
 export default {
   components: {
     HomeLayout,
     SelfLogo,
     Github,
     LinkedIn,
-    Instagram,
-    Twitter
+    Twitter,
+    Dev
   },
   data() {
     return {
