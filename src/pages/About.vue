@@ -13,10 +13,10 @@
             <p class="about-title">Software Developer</p>
             <p class="about-description">
               Working with a great team at
-              <a
-                href="https://adviserplus.com/"
-                target="blank"
-              >AdviserPlus</a> developing business software solutions.
+              <a href="https://elliswhittam.com/" target="blank"
+                >Ellis Whittam</a
+              >
+              developing business software solutions.
             </p>
           </div>
         </li>
@@ -26,9 +26,9 @@
           </div>
           <div class="about-info">
             <p class="about-title">BSc Cyber Security</p>
-            <p
-              class="about-description"
-            >First Class Honours Cyber Security Degree.</p>
+            <p class="about-description">
+              First Class Honours Cyber Security Degree.
+            </p>
           </div>
         </li>
         <li>
@@ -37,7 +37,9 @@
           </div>
           <div class="about-info">
             <p class="about-title">Based in the UK</p>
-            <p class="about-description">Can be found in and around the wilderness of North Wales.</p>
+            <p class="about-description">
+              Can be found in and around the wilderness of North Wales.
+            </p>
           </div>
         </li>
       </ul>
@@ -45,25 +47,24 @@
     <div class="about-copy">
       <h2>Get in touch</h2>
       <p>
-        If you'd like to, you can dispatch an electronic-mailogram in my direction:
-        <a
-          href="mailto:apottage@gmail.com"
-        >apottage@gmail.com</a>.
+        If you'd like to, you can dispatch an electronic-mailogram in my
+        direction:
+        <a href="mailto:apottage@gmail.com">apottage@gmail.com</a>.
       </p>
     </div>
   </Layout>
 </template>
 
 <script>
-import Terminal from "../../static/terminal.svg";
-import MapPin from "../../static/map-pin.svg";
-import Award from "../../static/award.svg";
+import Terminal from '../../static/terminal.svg'
+import MapPin from '../../static/map-pin.svg'
+import Award from '../../static/award.svg'
 export default {
   components: { Terminal, MapPin, Award },
   metaInfo: {
-    title: "About"
-  }
-};
+    title: 'About',
+  },
+}
 </script>
 
 <style lang="scss">
@@ -134,4 +135,3 @@ a {
   margin-top: 48px;
 }
 </style>
-

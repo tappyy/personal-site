@@ -1,32 +1,34 @@
 <template>
   <header class="header">
     <g-link v-if="!isHome" to="/" class="nav-logo">
-      <SelfLogo/>
+      <SelfLogo />
     </g-link>
     <nav class="nav">
-      <g-link active-class="link-active" class="nav__link" to="/about">about</g-link>
+      <g-link active-class="link-active" class="nav__link" to="/about"
+        >about</g-link
+      >
     </nav>
   </header>
 </template>
 
 <script>
-import SelfLogo from "../../static/self_icon.svg";
+import SelfLogo from '../../static/self_icon.svg'
 export default {
   components: {
-    SelfLogo
+    SelfLogo,
   },
   props: {
     isHome: {
       type: Boolean,
-      required: true
-    }
-  }
-};
+      required: true,
+    },
+  },
+}
 </script>
 
 <static-query>
 query {
-  metaData {
+  metadata {
     siteName
   }
 }
@@ -53,7 +55,7 @@ query {
   color: inherit;
   position: relative;
   &:before {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -74,7 +76,7 @@ query {
   }
   &.link-active {
     &:after {
-      content: "";
+      content: '';
       position: absolute;
       left: 0;
       bottom: -6px;

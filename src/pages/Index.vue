@@ -3,14 +3,14 @@
     <div class="grid">
       <div class="logo-container">
         <div class="self-logo">
-          <SelfLogo/>
+          <SelfLogo />
         </div>
       </div>
       <div class="type-container">
-        <p class="greeting">{{greeting}} Internet friend,</p>
+        <p class="greeting">{{ greeting }} Internet friend,</p>
         <h1>I'm Andy</h1>
         <p class="greeting sub">Your friendly neighbourhood</p>
-        <h2>Software Developer</h2>
+        <h2>Software Engineer</h2>
         <h3>
           Thinking about
           <span class="buzz">architecture</span>,
@@ -19,8 +19,12 @@
         </h3>
         <ul class="socials">
           <li>
-            <a href="https://github.com/tappyy" target="_blank" data-tip="View my code">
-              <Github/>
+            <a
+              href="https://github.com/tappyy"
+              target="_blank"
+              data-tip="View my code"
+            >
+              <Github />
             </a>
           </li>
           <li>
@@ -29,17 +33,21 @@
               target="_blank"
               data-tip="Be my buddy"
             >
-              <LinkedIn/>
+              <LinkedIn />
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/_unicr0n" target="_blank" data-tip="*tweet tweet*">
-              <Twitter/>
+            <a
+              href="https://twitter.com/_unicr0n"
+              target="_blank"
+              data-tip="*tweet tweet*"
+            >
+              <Twitter />
             </a>
           </li>
           <li>
             <a href="https://dev.to/tappyy" target="_blank" data-tip="Dev blog">
-              <Dev/>
+              <Dev />
             </a>
           </li>
         </ul>
@@ -49,12 +57,12 @@
 </template>
 
 <script>
-import HomeLayout from "../layouts/HomeLayout";
-import SelfLogo from "../../static/self_icon.svg";
-import Github from "../../static/github.svg";
-import LinkedIn from "../../static/linkedin.svg";
-import Twitter from "../../static/twitter.svg";
-import Dev from '../../static/dev-badge.svg';
+import HomeLayout from '../layouts/HomeLayout'
+import SelfLogo from '../../static/self_icon.svg'
+import Github from '../../static/github.svg'
+import LinkedIn from '../../static/linkedin.svg'
+import Twitter from '../../static/twitter.svg'
+import Dev from '../../static/dev-badge.svg'
 export default {
   components: {
     HomeLayout,
@@ -62,25 +70,25 @@ export default {
     Github,
     LinkedIn,
     Twitter,
-    Dev
+    Dev,
   },
   data() {
     return {
-      today: new Date()
-    };
+      today: new Date(),
+    }
   },
   computed: {
     greeting() {
-      let hour = this.today.getHours();
-      if (hour >= 0 && hour < 12) return "Good morning";
-      else if (hour >= 12 && hour < 17) return "Good afternoon";
-      else return "Good evening";
-    }
+      let hour = this.today.getHours()
+      if (hour >= 0 && hour < 12) return 'Good morning'
+      else if (hour >= 12 && hour < 17) return 'Good afternoon'
+      else return 'Good evening'
+    },
   },
   metaInfo: {
-    title: "Home"
-  }
-};
+    title: 'Home',
+  },
+}
 </script>
 
 <style lang="scss">
@@ -107,7 +115,7 @@ export default {
     h1,
     h2,
     h3 {
-      font-family: "Source Sans Pro", sans-serif;
+      font-family: 'Source Sans Pro', sans-serif;
       margin: 0;
       font-weight: normal;
     }
@@ -203,7 +211,7 @@ export default {
     color: inherit;
     position: relative;
     &:before {
-      content: "";
+      content: '';
       position: absolute;
       left: 0;
       bottom: -2px;
